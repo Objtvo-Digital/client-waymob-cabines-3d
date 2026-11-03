@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>Cabines acústicas · Individual e Dupla</title>
+    <meta name="description" content="As duas cabines acústicas em 3D, com os acabamentos escolhidos." />
+    <script type="module" crossorigin src="./assets/index-DldNUm4-.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Dn0LTPEI.css">
+  </head>
+  <body>
+    <header class="topo">
+      <p class="rotulo">Cabines acústicas · prévia para o Raul</p>
+      <h1>Individual e Dupla, no showroom da Waymob</h1>
+      <p class="chamada">Arraste para girar, use a rodinha (ou a pinça) para aproximar e abra as portas para ver o interior. Os botões mostram cada cabine sozinha.</p>
+    </header>
+
+    <main>
+      <section class="palco-caixa" aria-label="Visualização 3D das cabines">
+        <div id="palco" class="palco" role="img" aria-label="Cabine individual e cabine dupla em 3D, no showroom da Waymob"></div>
+        <p id="carregando" class="aviso" aria-live="polite">Carregando as cabines…</p>
+        <div class="controles" role="group" aria-label="Controles do 3D">
+          <div class="grupo" role="group" aria-label="O que ver">
+            <button type="button" data-vista="ambiente" aria-pressed="true">No showroom</button>
+            <button type="button" data-vista="individual" aria-pressed="false">Individual</button>
+            <button type="button" data-vista="dupla" aria-pressed="false">Dupla</button>
+          </div>
+          <div class="grupo">
+            <button type="button" id="angulo">Outro ângulo</button>
+            <button type="button" id="portas" aria-pressed="false">Abrir as portas</button>
+            <button type="button" id="dentro">Ver por dentro</button>
+          </div>
+          <div class="grupo" role="group" aria-label="Aproximar">
+            <button type="button" id="mais" aria-label="Aproximar">+</button>
+            <button type="button" id="menos" aria-label="Afastar">−</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="acabamentos" aria-label="Acabamentos">
+        <p class="dica-cores">Toque numa cor para ver a cabine com ela. "Original" volta ao acabamento escolhido.</p>
+        <article class="cabine">
+          <h2>Cabine Individual</h2>
+          <p class="medida">~1,00 × 1,00 × 2,20 m (largura × profundidade × altura, aproximado)</p>
+          <ul>
+            <li data-cabine="individual" data-parte="externo"><img src="./acabamentos/carvalho-munique.webp" alt="" width="64" height="64" /><span><b>Externo</b> Carvalho Munique <small>MDP BP madeirado · Novara</small></span></li>
+            <li data-cabine="individual" data-parte="interno"><img src="./acabamentos/feltrinho-cinza.webp" alt="" width="64" height="64" /><span><b>Interno</b> Feltrinho Cinza 6693 <small>tecido · Novara · também no banco</small></span></li>
+            <li data-cabine="individual" data-parte="mesa"><img src="./acabamentos/gianduia-trama.webp" alt="" width="64" height="64" /><span><b>Mesa</b> Gianduia Trama <small>MDP BP madeirado · Novara</small></span></li>
+          </ul>
+        </article>
+        <article class="cabine">
+          <h2>Cabine Dupla</h2>
+          <p class="medida">~1,60 × 1,20 × 2,20 m (largura × profundidade × altura, aproximado)</p>
+          <ul>
+            <li data-cabine="dupla" data-parte="externo"><img src="./acabamentos/crepe-chumbo.webp" alt="" width="64" height="64" /><span><b>Externo</b> Crepe Chumbo <small>tecido · tom aproximado: a foto da amostra não mostra a etiqueta</small></span></li>
+            <li data-cabine="dupla" data-parte="interno"><img src="./acabamentos/carvalho-prata.webp" alt="" width="64" height="64" /><span><b>Interno</b> Carvalho Prata <small>MDP BP madeirado · Novara</small></span></li>
+            <li data-cabine="dupla" data-parte="mesa"><img src="./acabamentos/grafite.webp" alt="" width="64" height="64" /><span><b>Mesa</b> Grafite <small>MDP BP liso · Novara</small></span></li>
+          </ul>
+        </article>
+      </section>
+
+      <p class="nota">
+        As texturas vêm das fotos das amostras, com a luz e o branco corrigidos. O desenho e as medidas das cabines saíram
+        das imagens de referência (não há ficha técnica), por isso são aproximados. O estofado dos bancos da Dupla não foi
+        informado e aparece em cinza. O showroom foi montado a partir do vídeo da Waymob (piso, vidro, estante, pilar e
+        móveis principais), em escala aproximada.
+      </p>
+    </main>
+
+  </body>
+</html>
